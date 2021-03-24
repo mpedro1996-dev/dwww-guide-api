@@ -2,6 +2,7 @@
 
 namespace App\Http\Resources;
 
+use App\Http\Resources\LevelResource;
 use Illuminate\Http\Resources\Json\ResourceCollection;
 
 class LevelCollection extends ResourceCollection
@@ -14,8 +15,7 @@ class LevelCollection extends ResourceCollection
      */
     public function toArray($request)
     {
-        return [
-            'data'=>$this->collection               
-        ];
-    }
+        return LevelResource::collection($this->collection);
+    }             
+      
 }

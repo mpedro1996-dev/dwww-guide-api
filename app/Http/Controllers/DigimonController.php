@@ -45,7 +45,7 @@ class DigimonController extends Controller
      */
     public function show($id)
     {
-        //
+        return $this->digimonService->show($id);
     }
 
     /**

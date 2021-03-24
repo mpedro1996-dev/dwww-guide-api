@@ -4,6 +4,7 @@ namespace App\Services;
 
 use App\Models\Digimon;
 use Illuminate\Http\Request;
+use App\Http\Resources\DigimonResource;
 use App\Http\Resources\DigimonCollection;
 
 
@@ -32,8 +33,14 @@ class DigimonService {
         return new DigimonCollection($this->digimonModel->with('level')->get());
     }
 
-    public function all(){
+    public function all()
+    {
         return new DigimonCollection($this->digimonModel->with('level')->get());
+    }
+
+    public function show($id)
+    {
+        return new DigimonResource($this->digimonModel->with(['level','digievolutions'])->find($id));
     }
 
 

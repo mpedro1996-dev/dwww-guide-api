@@ -12,10 +12,13 @@ class DatabaseSeeder extends Seeder
      * @return void
      */
     public function run()
-    {
-        
+    {        
+        /*
         $this->call(LevelSeeder::class);
-        
+        $this->call(DigimonsTableSeeder::class);
+        $this->call(DigievolutionSeeder::class);
+        */
+
         
     }
 }
