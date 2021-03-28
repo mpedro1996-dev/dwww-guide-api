@@ -3,10 +3,11 @@
 namespace Database\Seeders;
 
 use App\Models\Digimon;
-use Illuminate\Database\Seeder;
 use App\Models\Requirement;
-use Database\Seeder\Helpers\CoreDigievolution;
-use Database\Seeder\Helpers\CoreRookieDigievolution;
+use Illuminate\Database\Seeder;
+use Database\Seeders\Helpers\CoreDigievolution;
+use Database\Seeders\Helpers\CoreRookieDigievolution;
+
 
 
 

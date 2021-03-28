@@ -5,8 +5,8 @@ namespace Database\Seeders;
 use App\Models\Digimon;
 use App\Models\Requirement;
 use Illuminate\Database\Seeder;
-use Database\Seeder\Helpers\CoreDigievolution;
-use Database\Seeder\Helpers\CoreRookieDigievolution;
+use Database\Seeders\Helpers\CoreDigievolution;
+use Database\Seeders\Helpers\CoreRookieDigievolution;
 
 class VeemonCoreSeeder extends Seeder
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Database\Seeder\Helpers;
+namespace Database\Seeders\Helpers;
 
 class CoreRookieDigievolution
 {
