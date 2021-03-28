@@ -228,6 +228,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'CoreRookieDigievolution'=>Database\Helpers\CoreRookieDigievolution::class,
+        'CoreDigievolution'=>Database\Helpers\CoreDigievolution::class,
 
     ],
 

@@ -4,7 +4,7 @@ namespace App\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 
-class DigievolutionResource extends JsonResource
+class DigimonRequirementResource extends JsonResource
 {
     /**
      * Transform the resource into an array.
@@ -13,14 +13,11 @@ class DigievolutionResource extends JsonResource
      * @return array
      */
     public function toArray($request)
-    {   
-        
-        
-            
+    {
         return [
-            'digimon' =>new DigimonResource($this->digimon),
-            'requirement' => new RequirementResource($this->requirement)            
+            'id'=>$this->id,
+            'name'=> $this->name,
+            'leveling'=>$this->pivot->leveling
         ];
-        
     }
 }

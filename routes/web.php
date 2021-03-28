@@ -1,6 +1,12 @@
 <?php
 
+use App\Models\Digimon;
+use App\Helpers\CoreDigievolution;
 use Illuminate\Support\Facades\Route;
+use App\Http\Resources\DigimonResource;
+
+use App\Helpers\CoreRookieDigievolution;
+use App\Http\Resources\DigimonCollection;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,4 +21,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+
 });

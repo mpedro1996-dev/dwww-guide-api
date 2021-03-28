@@ -194,7 +194,7 @@ class DigimonsTableSeeder extends Seeder
             19 => 
             array (
                 'id' => 20,
-                'name' => 'Imperialdramon_DM',
+                'name' => 'Imperialdramon DM',
                 'image' => 'mega/Imperialdramon_DM_b.jpg',
                 'level_id' => 4,
                 'created_at' => '2021-03-23 02:25:14',
@@ -203,7 +203,7 @@ class DigimonsTableSeeder extends Seeder
             20 => 
             array (
                 'id' => 21,
-                'name' => 'Imperialdramon_FM',
+                'name' => 'Imperialdramon FM',
                 'image' => 'mega/Imperialdramon_FM_b.jpg',
                 'level_id' => 4,
                 'created_at' => '2021-03-23 02:25:14',
@@ -212,7 +212,7 @@ class DigimonsTableSeeder extends Seeder
             21 => 
             array (
                 'id' => 22,
-                'name' => 'Imperialdramon_PM',
+                'name' => 'Imperialdramon PM',
                 'image' => 'mega/Imperialdramon_PM_b.jpg',
                 'level_id' => 4,
                 'created_at' => '2021-03-23 02:25:14',
