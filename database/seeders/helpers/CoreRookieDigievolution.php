@@ -4,8 +4,8 @@ namespace Database\Seeder\Helpers;
 
 class CoreRookieDigievolution
 {
-    private $name;
-    private $digievolutions;
+    public $name;
+    public $digievolutions;
 
 
     public function __construct($name)

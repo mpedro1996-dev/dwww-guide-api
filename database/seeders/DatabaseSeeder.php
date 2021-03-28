@@ -16,9 +16,11 @@ class DatabaseSeeder extends Seeder
         /*
         $this->call(LevelSeeder::class);
         $this->call(DigimonsTableSeeder::class);
-        $this->call(DigievolutionSeeder::class);
-        $this->call(CoreDigievolutionSeeder::class);
+        $this->call(DigievolutionSeeder::class);        
+        $this->call(CoreDigievolutionSeeder::class);    
+        $this->call(VeemonCoreSeeder::class);
         */
+       
 
         
     }

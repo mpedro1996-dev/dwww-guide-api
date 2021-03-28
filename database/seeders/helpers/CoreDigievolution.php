@@ -13,5 +13,17 @@ class CoreDigievolution
 
     }
 
+    public static function newComposition($name,$array){
+        $arr = [];
+
+        foreach($array as $a)
+        {
+
+            array_push($arr,CoreDigievolution::new($a['name'],$a['level']));
+
+        }
+
+        return array('name'=>$name,'requeriments'=>$arr);
+    }
 
 }

@@ -13,10 +13,7 @@ class DigievolutionResource extends JsonResource
      * @return array
      */
     public function toArray($request)
-    {   
-        
-        
-            
+    {            
         return [
             'digimon' =>new DigimonResource($this->digimon),
             'requirement' => new RequirementResource($this->requirement)            

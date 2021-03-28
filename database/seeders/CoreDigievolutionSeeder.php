@@ -97,7 +97,7 @@ class CoreDigievolutionSeeder extends Seeder
 
                 $requirement->save();
 
-                $requirement->digimons()->attach($evolution->id,['leveling'=>$coreDigievolution['level']]);                
+                $requirement->digimons()->attach($digimon->id,['leveling'=>$coreDigievolution['level']]);                
                             
             }
         
